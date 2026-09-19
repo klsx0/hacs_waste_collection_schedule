@@ -79,6 +79,11 @@ TEST_CASES = {
         "insee_code": "40192",
         "instance_id": 158,
     },
+    "Valodev 18, Vierzon": {
+        "address": "1 Avenue du 8 Mai 1945",
+        "insee_code": "18279",
+        "instance_id": 1619,
+    },
     # "Saumur Val de Loire, Allones": {
     # "address": "5 rue du Bellay",
     # "insee_code": "49002",
@@ -346,6 +351,11 @@ EXTRA_INFO = [
         "title": "SICTOM du Marsan",
         "url": "https://sictomdumarsan.fr/la-collecte/mes-jours-de-collecte/",
         "default_params": {"instance_id": 158},
+    },
+    {
+        "title": "Valodev 18",
+        "url": "https://valodev18.fr/la-collecte-des-vos-dechets/",
+        "default_params": {"instance_id": 1619},
     },
 ]
 
